@@ -18,12 +18,12 @@ namespace PharmacyApp
         {
             
 
-            Connection.ConnectionString = "Server=s2.kts.tu-bryansk.ru"
-                                        + ";port=3306"
-                                        + ";User Id=17IAS-AMISI.SavarenkoEI"
-                                        + ";password=KE+DPuFM>YsD+Y1n"
-                                        + ";Database=17IAS-AMISI_SavarenkoEI"
-                                        + ";CharSet=utf8";
+            Connection.ConnectionString = "Server="
+                                        + ";port="
+                                        + ";User Id="
+                                        + ";password="
+                                        + ";Database="
+                                        + ";CharSet=";
             Connection.Open();
         }
 
